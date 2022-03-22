@@ -1,0 +1,8 @@
+{
+  "main": {
+    "changeLanguage": "Change language"
+  },
+  "test2": {
+    "test3": "Hello world 3!"
+  }
+}

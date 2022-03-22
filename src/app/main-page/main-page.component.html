@@ -1,0 +1,4 @@
+<app-menu [buttons]="['test1', 'test2', 'test3']" (onButtonClicked)="currentPageName = $event"></app-menu>
+<div>Current page: {{currentPageName}}</div>
+<div style="background-color: red">{{'test2.test3' | translate}}</div>
+<button (click)="changeLanguage()">{{'main.changeLanguage' | translate}}</button>
